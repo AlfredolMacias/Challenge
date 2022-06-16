@@ -1,0 +1,30 @@
+{
+  "name": "challenge",
+  "version": "1.0.0",
+  "description": "backend challenge for Addika",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest --forceExit --detectOpenHandles  --watchAll --coverage",
+    "start": "node app",
+    "dev": "nodemon appm"
+  },
+  "author": "Alfredo Loeza Macias",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-generator": "^4.16.1",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.16",
+    "sequelize": "^6.20.1",
+    "sequelize-cli": "^6.4.1"
+  },
+  "devDependencies": {
+    "jest": "^28.1.1",
+    "supertest": "^6.2.3"
+  }
+}
